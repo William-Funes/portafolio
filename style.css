@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.descripcion {
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+
+.botones {
+  margin: 30px 0;
+}
+
+.botones button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.seccion {
+  display: none;
+}
+
+ul {
+  margin-top: 10px;
+}
