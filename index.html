@@ -2,41 +2,63 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Portafolio Escolar - William Funes</title>
+  <title>Portafolio de Ingeniería Económica - William Funes</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Portafolio Escolar - William Funes</h1>
 
-  <h2>Primer Cómputo</h2>
-  <ul>
-    <li><a href="documentos/computo1_semana1.pdf" target="_blank">Semana 1</a></li>
-    <li><a href="documentos/computo1_semana2.pdf" target="_blank">Semana 2</a></li>
-    <li><a href="documentos/computo1_semana3.pdf" target="_blank">Semana 3</a></li>
-    <li><a href="documentos/computo1_semana4.pdf" target="_blank">Semana 4</a></li>
-    <li><a href="documentos/computo1_semana5.pdf" target="_blank">Semana 5</a></li>
-    <li><a href="documentos/computo1_semana6.pdf" target="_blank">Semana 6</a></li>
-  </ul>
+  <h1>Portafolio de Ingeniería Económica</h1>
 
-  <h2>Segundo Cómputo</h2>
-  <ul>
-    <li><a href="documentos/computo2_semana1.pdf" target="_blank">Semana 1</a></li>
-    <li><a href="documentos/computo2_semana2.pdf" target="_blank">Semana 2</a></li>
-    <li><a href="documentos/computo2_semana3.pdf" target="_blank">Semana 3</a></li>
-    <li><a href="documentos/computo2_semana4.pdf" target="_blank">Semana 4</a></li>
-    <li><a href="documentos/computo2_semana5.pdf" target="_blank">Semana 5</a></li>
-    <li><a href="documentos/computo2_semana6.pdf" target="_blank">Semana 6</a></li>
-  </ul>
+  <div class="descripcion">
+    <p><strong>William Reynaldo Funes Andrade</strong><br>
+    Estudiante de segundo año de Ingeniería Civil en la Universidad Gerardo Barrios.</p>
+    <p>Me apasiona el mundo de la construcción, el diseño estructural y la creación de planos. Disfruto transformar ideas en proyectos concretos, combinando creatividad, técnica y compromiso. Estoy en constante aprendizaje y motivado por contribuir al desarrollo de soluciones innovadoras y funcionales en el campo de la ingeniería civil.</p>
+  </div>
 
-  <h2>Tercer Cómputo</h2>
-  <ul>
-    <li><a href="documentos/computo3_semana1.pdf" target="_blank">Semana 1</a></li>
-    <li><a href="documentos/computo3_semana2.pdf" target="_blank">Semana 2</a></li>
-    <li><a href="documentos/computo3_semana3.pdf" target="_blank">Semana 3</a></li>
-    <li><a href="documentos/computo3_semana4.pdf" target="_blank">Semana 4</a></li>
-    <li><a href="documentos/computo3_semana5.pdf" target="_blank">Semana 5</a></li>
-    <li><a href="documentos/computo3_semana6.pdf" target="_blank">Semana 6</a></li>
-  </ul>
+  <div class="botones">
+    <button onclick="mostrar('c1')">Primer Cómputo</button>
+    <button onclick="mostrar('c2')">Segundo Cómputo</button>
+    <button onclick="mostrar('c3')">Tercer Cómputo</button>
+  </div>
+
+  <div id="c1" class="seccion">
+    <h2>Primer Cómputo</h2>
+    <ul>
+      <li><a href="documentos/computo1_semana1.pdf" target="_blank">Semana 1</a></li>
+      <li><a href="documentos/computo1_semana2.pdf" target="_blank">Semana 2</a></li>
+      <li><a href="documentos/computo1_semana3.pdf" target="_blank">Semana 3</a></li>
+      <li><a href="documentos/computo1_semana4.pdf" target="_blank">Semana 4</a></li>
+      <li><a href="documentos/computo1_semana5.pdf" target="_blank">Semana 5</a></li>
+      <li><a href="documentos/computo1_semana6.pdf" target="_blank">Semana 6</a></li>
+    </ul>
+  </div>
+
+  <div id="c2" class="seccion">
+    <h2>Segundo Cómputo</h2>
+    <ul>
+      <li><a href="documentos/computo2_semana1.pdf" target="_blank">Semana 1</a></li>
+      <li><a href="documentos/computo2_semana2.pdf" target="_blank">Semana 2</a></li>
+      <li><a href="documentos/computo2_semana3.pdf" target="_blank">Semana 3</a></li>
+      <li><a href="documentos/computo2_semana4.pdf" target="_blank">Semana 4</a></li>
+      <li><a href="documentos/computo2_semana5.pdf" target="_blank">Semana 5</a></li>
+      <li><a href="documentos/computo2_semana6.pdf" target="_blank">Semana 6</a></li>
+    </ul>
+  </div>
+
+  <div id="c3" class="seccion">
+    <h2>Tercer Cómputo</h2>
+    <ul>
+      <li><a href="documentos/computo3_semana1.pdf" target="_blank">Semana 1</a></li>
+      <li><a href="documentos/computo3_semana2.pdf" target="_blank">Semana 2</a></li>
+      <li><a href="documentos/computo3_semana3.pdf" target="_blank">Semana 3</a></li>
+      <li><a href="documentos/computo3_semana4.pdf" target="_blank">Semana 4</a></li>
+      <li><a href="documentos/computo3_semana5.pdf" target="_blank">Semana 5</a></li>
+      <li><a href="documentos/computo3_semana6.pdf" target="_blank">Semana 6</a></li>
+    </ul>
+  </div>
 
   <p style="margin-top: 50px;">&copy; 2025 William Funes</p>
+
+  <script src="script.js"></script>
 </body>
 </html>
