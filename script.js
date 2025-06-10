@@ -1,6 +1,12 @@
 function mostrar(id) {
-  document.getElementById('c1').style.display = 'none';
-  document.getElementById('c2').style.display = 'none';
-  document.getElementById('c3').style.display = 'none';
+  const secciones = document.querySelectorAll('.seccion');
+  secciones.forEach(seccion => {
+    seccion.style.display = 'none';
+  });
   document.getElementById(id).style.display = 'block';
 }
+
+// Mostrar la primera sección (Primer Cómputo) por defecto
+window.onload = function() {
+  mostrar('c1');
+};
